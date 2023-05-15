@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height:8vh;
+    width:100%;
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+.text{
+    color:white;
+    font-size: 30px;
+}
+.container{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+.item{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
